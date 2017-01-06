@@ -1,0 +1,183 @@
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.neighborhood-guides{
+    background-color:white;
+    border-bottom:1px solid #dbdbdb;
+
+}
+	
+.neighborhood-guides h2{
+    color:black;
+    font-size:24px;
+}
+.neighborhood-guides p{
+    font-size:15px;
+    margin-bottom:13px;
+	color:black;
+}
+
+.class1{
+	z-index:2000;
+	position:relative;
+}
+.neighbourhood-guides .container .row{
+height:450px;
+}
+
+.col-md-4 .thumbnail .height img{
+height:450px;
+} 
+
+.col-md-4 .thumbnail .height1 img{
+height:230px;
+
+} 
+
+ .carousel-inner > .item > img{
+ width:1040px;
+ height:500px;
+ margin: auto;
+ }
+ 
+ body{
+ background-color:white;
+ }
+ 
+
+.col-md-3 .thumbnail{
+	height:200px;
+	width:380;
+}
+.col-md-3 .thumbnail img {
+  width: 100%;
+  height: 100%;
+ 
+
+}
+
+
+.col-md-3.thumbnail .i1:hover{
+	opacity:0.4;
+}
+
+
+
+.jumbotron {
+  background-image:url('blur.jpg');
+  
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+ 
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+.tales{
+	width:100%;
+}
+.item , img{
+	width:100%;
+}
+
+
+
+    display:inline-block;
+
+/*new search*/
+
+
+.c1, .main {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+.main { margin-top: 50px; }
+
+.c1, .main1 {
+    width: 320px;
+    margin-left: 100px;
+    margin-right: auto;
+    height: 300px;
+}
+
+.main1 { margin-top: 50px }
+
+
+
+
+.search-box{
+  display: inline-block;
+  width:800px;
+  border-radius: 3px;
+  padding: 10px 40px 10px 30px;
+  position: relative;
+  background: #fff;
+    border: 1px solid #ddd;
+  @include transition(all 200ms ease-in-out)
+
+  &.hovered,
+  &:hover,
+  &:active;
+    border: 1px solid #aaa;
+}
+input[type=text]{
+    border: none;
+    
+    box-shadow: none;
+    display: inline-block;
+    padding: 0;
+    background: transparent;
+
+
+      box-shadow: none;
+}
+
+.search-btn{
+    
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    color: #aaa;
+    border-radius: 3px;
+    font-size: 21px;
+    padding: 10px 10px 1px;
+    @include transition(all 200ms ease-in-out)
+
+    &:hover
+      color: #fff
+      background-color: #8FBE00;
+}
+      
+      
+      
+      
